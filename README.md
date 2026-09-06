@@ -15,8 +15,12 @@ BulkOps is a Forge-native Confluence utility for safe, reviewable bulk page oper
 
 ## SeatAudit for Jira
 
-- [Privacy Notice](./PRIVACY.md)
-- [Support Policy](./SUPPORT.md)
-- [Security Policy](./SECURITY.md)
+- [Documentation](./seataudit/DOCUMENTATION.md)
+- [Privacy & Security Statement](./seataudit/PRIVACY-SECURITY.md)
+- [Support Policy](./seataudit/SUPPORT.md)
+- [Release notes — 2.1.0](./seataudit/RELEASE-NOTES-2.1.0.md)
+- [Public support / work-item tracker](https://github.com/thanoswasaswagger/ashbizcon-public/issues)
 
-SeatAudit is a read-mostly Jira license-hygiene and access-review application built on Atlassian Forge.
+SeatAudit is a Forge-native, evidence-first Jira license-hygiene and access-review application. It is read-only with respect to Jira and is designed to support administrator review rather than automatic account or access changes.
+
+Legacy SeatAudit policy documents remain available at the repository root while Marketplace-facing resources are organized under `seataudit/`.

@@ -1,0 +1,69 @@
+name: SeatAudit support request
+description: Report a non-sensitive SeatAudit bug, feature request, or product question.
+title: "[SeatAudit] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve SeatAudit for Jira. This tracker is public.
+
+        **Do not include Jira user inventories, customer PII, credentials, authorization headers, API tokens, exported reports, or security vulnerabilities.** Security issues must be reported privately to security@ashbizcon.com.
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Request type
+      options:
+        - Bug
+        - Feature request
+        - Product question
+        - Installation or licensing issue
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SeatAudit version
+      placeholder: "For example: 2.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - Production
+        - Development / test
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened or what do you need?
+      description: Describe the issue or request without including customer-sensitive data.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: For bugs, provide concise steps using non-sensitive examples. For questions or feature requests, this can be left brief.
+    validations:
+      required: false
+  - type: input
+    id: coverage
+    attributes:
+      label: Evidence coverage states (optional)
+      description: If relevant, provide only the high-level AVAILABLE / LIMITED / UNAVAILABLE / NOT_EVALUATED states shown by SeatAudit.
+    validations:
+      required: false
+  - type: checkboxes
+    id: public-data-confirmation
+    attributes:
+      label: Public-data confirmation
+      options:
+        - label: I have not included customer PII, user inventories, credentials, tokens, authorization headers, exported reports, or other secrets.
+          required: true
+        - label: This is not a security vulnerability report.
+          required: true

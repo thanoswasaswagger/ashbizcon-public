@@ -2,6 +2,15 @@
 
 Official public policy, documentation, security, and support resources for ASHBIZCON Marketplace products.
 
+## SitePreflight for Framer
+
+- [Documentation](./sitepreflight/DOCUMENTATION.md)
+- [Privacy Policy](./sitepreflight/PRIVACY.md)
+- [Support Policy](./sitepreflight/SUPPORT.md)
+- [Public support / work-item tracker](https://github.com/thanoswasaswagger/ashbizcon-public/issues)
+
+SitePreflight is a local-first deterministic release-preflight plugin for Framer. It surfaces evidence-backed link, accessibility, structure, image, form, and responsive-layout risks, shows audit coverage and limitations, supports Focus in Framer where available, and exports HTML/CSV/JSON reports locally without an ASHBIZCON backend or AI service.
+
 ## BulkOps for Confluence
 
 - [Documentation](./bulkops/DOCUMENTATION.md)

@@ -2,6 +2,15 @@
 
 Official public policy, documentation, security, and support resources for ASHBIZCON Marketplace products.
 
+## AttachOps for Jira
+
+- [Documentation](./attachops/DOCUMENTATION.md)
+- [Privacy Notice](./attachops/PRIVACY.md)
+- [Support Policy](./attachops/SUPPORT.md)
+- [Public support / work-item tracker](https://github.com/thanoswasaswagger/ashbizcon-public/issues)
+
+AttachOps is a Forge-native Jira attachment operations and storage-hygiene utility with scoped inventory, storage/aging/duplicate-candidate analysis, CSV and browser-built ZIP exports, reusable scan scopes, and explicitly guarded Safe Cleanup.
+
 ## SitePreflight for Framer
 
 - [Documentation](./sitepreflight/DOCUMENTATION.md)
